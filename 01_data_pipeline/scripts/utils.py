@@ -10,8 +10,8 @@ import os
 import sqlite3
 from sqlite3 import Error
 from constants import *
-from Maps.city_tier import city_tier_mapping
-from significant_categorical_level import *
+from mapping.city_tier_mapping import city_tier_mapping
+from mapping.significant_categorical_level import *
 
 
 ###############################################################################
