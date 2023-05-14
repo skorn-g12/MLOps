@@ -1,0 +1,32 @@
+[2023-05-14T16:32:23.959+0530] {processor.py:156} INFO - Started process (PID=12467) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-05-14T16:32:23.960+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2023-05-14T16:32:23.961+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:23.960+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-05-14T16:32:23.964+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_external_task_marker_child', 'example_external_task_marker_parent']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-05-14T16:32:24.149+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:24.149+0530] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_external_task_marker_child
+[2023-05-14T16:32:24.199+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:24.199+0530] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_external_task_marker_child
+[2023-05-14T16:32:24.274+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:24.274+0530] {manager.py:504} INFO - Created Permission View: can read on DAG:example_external_task_marker_child
+[2023-05-14T16:32:24.449+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:24.449+0530] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_external_task_marker_parent
+[2023-05-14T16:32:24.508+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:24.507+0530] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_external_task_marker_parent
+[2023-05-14T16:32:24.587+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:24.586+0530] {manager.py:504} INFO - Created Permission View: can read on DAG:example_external_task_marker_parent
+[2023-05-14T16:32:24.587+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:24.587+0530] {dag.py:2726} INFO - Sync 2 DAGs
+[2023-05-14T16:32:24.600+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:24.600+0530] {dag.py:2747} INFO - Creating ORM DAG for example_external_task_marker_parent
+[2023-05-14T16:32:24.600+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:24.600+0530] {dag.py:2747} INFO - Creating ORM DAG for example_external_task_marker_child
+[2023-05-14T16:32:24.611+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:24.611+0530] {dag.py:3486} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2023-05-14T16:32:24.612+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:24.611+0530] {dag.py:3486} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2023-05-14T16:32:24.756+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.799 seconds
+[2023-05-14T16:33:20.428+0530] {processor.py:156} INFO - Started process (PID=12570) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-05-14T16:33:20.429+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2023-05-14T16:33:20.430+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:20.430+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-05-14T16:33:20.435+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_external_task_marker_child', 'example_external_task_marker_parent']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-05-14T16:33:20.459+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:20.458+0530] {dag.py:2726} INFO - Sync 2 DAGs
+[2023-05-14T16:33:20.477+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:20.477+0530] {dag.py:3486} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2023-05-14T16:33:20.479+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:20.479+0530] {dag.py:3486} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2023-05-14T16:33:20.554+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.128 seconds
+[2023-05-14T16:36:06.000+0530] {processor.py:156} INFO - Started process (PID=13037) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-05-14T16:36:06.011+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2023-05-14T16:36:06.012+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:06.012+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-05-14T16:36:06.015+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_external_task_marker_child', 'example_external_task_marker_parent']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2023-05-14T16:36:06.057+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:06.057+0530] {dag.py:2726} INFO - Sync 2 DAGs
+[2023-05-14T16:36:06.073+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:06.073+0530] {dag.py:3486} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2023-05-14T16:36:06.075+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:06.075+0530] {dag.py:3486} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2023-05-14T16:36:06.162+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.165 seconds

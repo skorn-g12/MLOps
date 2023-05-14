@@ -1,0 +1,25 @@
+[2023-05-14T16:32:17.724+0530] {processor.py:156} INFO - Started process (PID=12442) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-05-14T16:32:17.725+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-05-14T16:32:17.725+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:17.725+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-05-14T16:32:17.735+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-05-14T16:32:18.013+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:18.012+0530] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_branch_operator
+[2023-05-14T16:32:18.133+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:18.133+0530] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_branch_operator
+[2023-05-14T16:32:18.265+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:18.265+0530] {manager.py:504} INFO - Created Permission View: can read on DAG:example_branch_operator
+[2023-05-14T16:32:18.265+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:18.265+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-14T16:32:18.278+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:18.278+0530] {dag.py:2747} INFO - Creating ORM DAG for example_branch_operator
+[2023-05-14T16:32:18.291+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:18.291+0530] {dag.py:3486} INFO - Setting next_dagrun for example_branch_operator to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-14T16:32:18.423+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.701 seconds
+[2023-05-14T16:33:17.278+0530] {processor.py:156} INFO - Started process (PID=12567) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-05-14T16:33:17.278+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-05-14T16:33:17.279+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:17.279+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-05-14T16:33:17.285+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-05-14T16:33:17.298+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:17.298+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-14T16:33:17.312+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:17.312+0530] {dag.py:3486} INFO - Setting next_dagrun for example_branch_operator to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-14T16:33:17.401+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.124 seconds
+[2023-05-14T16:36:03.192+0530] {processor.py:156} INFO - Started process (PID=13030) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-05-14T16:36:03.193+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py for tasks to queue
+[2023-05-14T16:36:03.194+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:03.193+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-05-14T16:36:03.204+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_branch_operator']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py
+[2023-05-14T16:36:03.230+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:03.230+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-14T16:36:03.246+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:03.246+0530] {dag.py:3486} INFO - Setting next_dagrun for example_branch_operator to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-14T16:36:03.346+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_operator.py took 0.156 seconds

@@ -4,6 +4,11 @@ Import necessary modules
 """
 
 import pandas as pd
+import sys
+from constants import *
+from schema import *
+from utils import *
+
 
 ###############################################################################
 # Define function to validate raw data's schema
@@ -31,7 +36,12 @@ def raw_data_schema_check():
     SAMPLE USAGE
         raw_data_schema_check
     '''
-   
+    df = pd.read_csv(f"{DATA_DIRECTORY}/leadscoring.csv", index_col=0)
+    if set(df.columns) == set(raw_data_schema):
+        print("Raw data's schema is in line with the schema present in schema.py")
+    else:
+        print("Raw data's schema is NOT in line with the schema present in schema.py")
+
 
 ###############################################################################
 # Define function to validate model's input schema
@@ -58,7 +68,19 @@ def model_input_schema_check():
     SAMPLE USAGE
         raw_data_schema_check
     '''
-    
+    conn = get_sql_connection()
+    dfFinal = pd.read_sql_query("SELECT * FROM model_input", conn)
+    if set(dfFinal.columns) == set(model_input_schema):
+        print("Models input schema is in line with the schema present in schema.py")
+    else:
+        print("Models input schema is NOT in line with the schema present in schema.py")
 
-    
-    
+
+if __name__ == "__main__":
+    build_dbs()
+    raw_data_schema_check()
+    load_data_into_db()
+    map_city_tier()
+    map_categorical_vars()
+    interactions_mapping()
+    model_input_schema_check()

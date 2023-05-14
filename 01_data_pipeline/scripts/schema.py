@@ -18,6 +18,6 @@ raw_data_schema = ['created_date', 'city_mapped', 'first_platform_c',
            'view_programs_page', 'whatsapp_chat_click', 'app_complete_flag']
 
 
-model_input_schema = ['total_leads_droppped', 'city_tier', 'referred_lead', 
+model_input_schema = ['total_leads_dropped', 'city_tier', 'referred_lead',
                     'first_platform_c', 'first_utm_medium_c', 'first_utm_source_c', 
                     'app_complete_flag']

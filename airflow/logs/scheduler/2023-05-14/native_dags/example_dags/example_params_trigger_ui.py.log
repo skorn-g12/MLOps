@@ -1,0 +1,25 @@
+[2023-05-14T16:32:27.856+0530] {processor.py:156} INFO - Started process (PID=12475) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-05-14T16:32:27.856+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2023-05-14T16:32:27.857+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:27.857+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-05-14T16:32:27.879+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-05-14T16:32:28.582+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:28.582+0530] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_params_trigger_ui
+[2023-05-14T16:32:28.649+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:28.649+0530] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_params_trigger_ui
+[2023-05-14T16:32:28.707+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:28.707+0530] {manager.py:504} INFO - Created Permission View: can read on DAG:example_params_trigger_ui
+[2023-05-14T16:32:28.708+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:28.708+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-14T16:32:29.650+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:29.650+0530] {dag.py:2747} INFO - Creating ORM DAG for example_params_trigger_ui
+[2023-05-14T16:32:29.765+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:29.765+0530] {dag.py:3486} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2023-05-14T16:32:29.871+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 2.018 seconds
+[2023-05-14T16:33:22.910+0530] {processor.py:156} INFO - Started process (PID=12572) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-05-14T16:33:22.910+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2023-05-14T16:33:22.911+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:22.911+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-05-14T16:33:22.934+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-05-14T16:33:22.992+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:22.992+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-14T16:33:23.006+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:23.005+0530] {dag.py:3486} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2023-05-14T16:33:23.087+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 0.180 seconds
+[2023-05-14T16:36:08.892+0530] {processor.py:156} INFO - Started process (PID=13049) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-05-14T16:36:08.919+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py for tasks to queue
+[2023-05-14T16:36:08.920+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:08.920+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-05-14T16:36:08.943+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_params_trigger_ui']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py
+[2023-05-14T16:36:09.089+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:09.089+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-14T16:36:09.234+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:09.234+0530] {dag.py:3486} INFO - Setting next_dagrun for example_params_trigger_ui to None, run_after=None
+[2023-05-14T16:36:10.550+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_params_trigger_ui.py took 1.661 seconds

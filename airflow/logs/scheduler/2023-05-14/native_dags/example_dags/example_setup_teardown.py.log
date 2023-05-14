@@ -1,0 +1,20 @@
+[2023-05-14T16:32:02.575+0530] {processor.py:156} INFO - Started process (PID=12387) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:32:02.576+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-05-14T16:32:02.576+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:02.576+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:32:02.578+0530] {processor.py:811} WARNING - No viable dags retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:32:02.587+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.014 seconds
+[2023-05-14T16:33:07.033+0530] {processor.py:156} INFO - Started process (PID=12553) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:33:07.034+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-05-14T16:33:07.034+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:07.034+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:33:07.036+0530] {processor.py:811} WARNING - No viable dags retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:33:07.045+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.015 seconds
+[2023-05-14T16:35:52.500+0530] {processor.py:156} INFO - Started process (PID=12992) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:35:52.501+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-05-14T16:35:52.501+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:35:52.501+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:35:52.502+0530] {processor.py:811} WARNING - No viable dags retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:35:52.509+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.011 seconds
+[2023-05-14T16:36:47.026+0530] {processor.py:156} INFO - Started process (PID=13257) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:36:47.030+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py for tasks to queue
+[2023-05-14T16:36:47.031+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:47.031+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:36:47.032+0530] {processor.py:811} WARNING - No viable dags retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py
+[2023-05-14T16:36:47.042+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_setup_teardown.py took 0.018 seconds

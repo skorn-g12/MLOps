@@ -1,0 +1,25 @@
+[2023-05-14T16:32:16.567+0530] {processor.py:156} INFO - Started process (PID=12402) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-05-14T16:32:16.568+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-05-14T16:32:16.569+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:16.568+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-05-14T16:32:16.574+0530] {processor.py:809} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-05-14T16:32:16.850+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:16.850+0530] {manager.py:504} INFO - Created Permission View: can delete on DAG:latest_only
+[2023-05-14T16:32:16.933+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:16.933+0530] {manager.py:504} INFO - Created Permission View: can edit on DAG:latest_only
+[2023-05-14T16:32:17.000+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:17.000+0530] {manager.py:504} INFO - Created Permission View: can read on DAG:latest_only
+[2023-05-14T16:32:17.000+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:17.000+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-14T16:32:17.013+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:17.013+0530] {dag.py:2747} INFO - Creating ORM DAG for latest_only
+[2023-05-14T16:32:17.024+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:32:17.024+0530] {dag.py:3486} INFO - Setting next_dagrun for latest_only to 2023-05-14T07:02:17.023771+00:00, run_after=2023-05-14T11:02:17.023771+00:00
+[2023-05-14T16:32:17.129+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.565 seconds
+[2023-05-14T16:33:16.033+0530] {processor.py:156} INFO - Started process (PID=12566) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-05-14T16:33:16.046+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-05-14T16:33:16.046+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:16.046+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-05-14T16:33:16.049+0530] {processor.py:809} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-05-14T16:33:16.061+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:16.060+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-14T16:33:16.073+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:33:16.073+0530] {dag.py:3486} INFO - Setting next_dagrun for latest_only to 2023-05-14T07:03:16.073538+00:00, run_after=2023-05-14T11:03:16.073538+00:00
+[2023-05-14T16:33:16.142+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.110 seconds
+[2023-05-14T16:36:01.948+0530] {processor.py:156} INFO - Started process (PID=13025) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-05-14T16:36:01.948+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2023-05-14T16:36:01.949+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:01.949+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-05-14T16:36:01.952+0530] {processor.py:809} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2023-05-14T16:36:01.964+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:01.964+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-14T16:36:01.978+0530] {logging_mixin.py:149} INFO - [2023-05-14T16:36:01.978+0530] {dag.py:3486} INFO - Setting next_dagrun for latest_only to 2023-05-14T07:06:01.977861+00:00, run_after=2023-05-14T11:06:01.977861+00:00
+[2023-05-14T16:36:02.095+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.149 seconds

@@ -23,7 +23,7 @@ def get_sql_connection():
     conn = None
     # opening the connection for creating the sqlite db
     try:
-        conn = sqlite3.connect(DB_PATH + DB_FILE_NAME)
+        conn = sqlite3.connect(DB_PATH + "/" + DB_FILE_NAME)
         print(sqlite3.version)
     # return an error if connection not established
     except Error as e:
@@ -60,11 +60,11 @@ def build_dbs():
         build_dbs()
     '''
     returnStatus = "DB Exists"
-    if os.path.isfile(DB_PATH + DB_FILE_NAME):
+    if os.path.isfile(DB_PATH + "/" + DB_FILE_NAME):
         print("DB Already Exists")
     else:
         print("Creating Database")
-        with open(DB_PATH + DB_FILE_NAME, "w") as fp:
+        with open(DB_PATH + "/" + DB_FILE_NAME, "w") as fp:
             pass
         returnStatus = "DB created"
 
@@ -100,7 +100,7 @@ def load_data_into_db(dataDir=DATA_DIRECTORY, csvName=RAW_CSV_NAME):
     SAMPLE USAGE
         load_data_into_db()
     '''
-    df = pd.read_csv(f"{dataDir}/{csvName}")
+    df = pd.read_csv(f"{dataDir}/{csvName}", index_col=0)
     df.rename(columns={"total_leads_droppped": "total_leads_dropped"}, inplace=True)
     if "total_leads_dropped" in df.columns:
         df["total_leads_dropped"].fillna(0, inplace=True)
@@ -248,7 +248,7 @@ def interactions_mapping():
         'app_complete_flag' column, or else pass a list without 'app_complete_flag'
         column.
 
-    
+
     OUTPUT
         Saves the processed dataframe in the db in a table named 
         'interactions_mapped'. If the table with the same name already exists then
@@ -282,13 +282,19 @@ def interactions_mapping():
                               aggfunc='sum')
     df_pivot = df_pivot.reset_index()
     df_pivot.to_sql("interactions_mapping", conn, if_exists="replace", index=False)
+    dfModelInput = pd.DataFrame()
+    if "app_complete_flag" in df_pivot.columns:
+        dfModelInput = df_pivot[TRAINING_FEATURES]
+    else:
+        dfModelInput = df_pivot[INFERENCE_FEATURES]
+    dfModelInput.to_sql("model_input", conn, if_exists="replace", index=False)
     # Close connection once all is done
     conn.close()
 
 
 if __name__ == "__main__":
-    build_dbs()
-    load_data_into_db()
-    map_city_tier()
-    map_categorical_vars()
+    #build_dbs()
+    #load_data_into_db()
+    #map_city_tier()
+    #map_categorical_vars()
     interactions_mapping()
