@@ -8,11 +8,15 @@
 # sys.path.append("/run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_data_pipeline")
 import pandas as pd
 import os
+import sys
+# Add the current directory to the Python path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 import sqlite3
 from sqlite3 import Error
 from constants import *
 from mapping.city_tier_mapping import city_tier_mapping
 from mapping.significant_categorical_level import *
+
 
 
 ###############################################################################

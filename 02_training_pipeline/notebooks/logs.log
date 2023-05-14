@@ -12054,3 +12054,13 @@ AttributeError: 'OptunaSearchCV' object has no attribute 'cv_results_'
                                 subsample_freq=0))],
          verbose=False)
 2023-05-14 23:16:57,796:INFO:save_model() successfully completed......................................
+2023-05-15 02:51:50,977:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-15 02:51:50,977:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-15 02:51:50,978:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-15 02:51:50,978:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2023-05-15 02:51:52,523:WARNING:
+'prophet' is a soft dependency and not included in the pycaret installation. Please run: `pip install prophet` to install.

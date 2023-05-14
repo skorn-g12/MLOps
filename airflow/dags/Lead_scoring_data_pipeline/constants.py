@@ -1,7 +1,7 @@
 # You can create more variables according to your project. The following are the basic variables that have been
 # provided to you
 DB_PATH = '/run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_data_pipeline/'
-DB_FILE_NAME = 'lead_scoring_data_cleaning.db'
+DB_FILE_NAME = 'lead_scoring_training.db'
 UNIT_TEST_DB_FILE_NAME = ''
 DATA_DIRECTORY = '/run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_data_pipeline/data'
 RAW_CSV_NAME = "leadscoring.csv"

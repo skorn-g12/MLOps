@@ -1,0 +1,29 @@
+[2023-05-15T04:12:44.573+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_scoring_mlflow_production.training_model manual__2023-05-14T22:42:27.817783+00:00 [queued]>
+[2023-05-15T04:12:44.581+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_scoring_mlflow_production.training_model manual__2023-05-14T22:42:27.817783+00:00 [queued]>
+[2023-05-15T04:12:44.581+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-15T04:12:44.678+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): training_model> on 2023-05-14 22:42:27.817783+00:00
+[2023-05-15T04:12:44.684+0530] {standard_task_runner.py:57} INFO - Started process 18851 to run task
+[2023-05-15T04:12:44.686+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_scoring_mlflow_production', 'training_model', 'manual__2023-05-14T22:42:27.817783+00:00', '--job-id', '22', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py', '--cfg-path', '/tmp/tmpacgatoei']
+[2023-05-15T04:12:44.688+0530] {standard_task_runner.py:85} INFO - Job 22: Subtask training_model
+[2023-05-15T04:12:44.828+0530] {task_command.py:410} INFO - Running <TaskInstance: Lead_scoring_mlflow_production.training_model manual__2023-05-14T22:42:27.817783+00:00 [running]> on host Agni
+[2023-05-15T04:12:45.006+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_scoring_mlflow_production' AIRFLOW_CTX_TASK_ID='training_model' AIRFLOW_CTX_EXECUTION_DATE='2023-05-14T22:42:27.817783+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-14T22:42:27.817783+00:00'
+[2023-05-15T04:12:45.045+0530] {logging_mixin.py:149} INFO - 2.6.0
+[2023-05-15T04:14:44.381+0530] {local_task_job_runner.py:298} WARNING - State of this instance has been externally set to success. Terminating instance.
+[2023-05-15T04:14:44.396+0530] {process_utils.py:131} INFO - Sending Signals.SIGTERM to group 18851. PIDs of all processes in the group: [18855, 18856, 18857, 18858, 18859, 18860, 18861, 18862, 18863, 18875, 18876, 18877, 18878, 18879, 18851]
+[2023-05-15T04:14:44.396+0530] {process_utils.py:86} INFO - Sending the signal Signals.SIGTERM to group 18851
+[2023-05-15T04:14:44.460+0530] {taskinstance.py:1540} ERROR - Received SIGTERM. Terminating subprocesses.
+[2023-05-15T04:14:44.501+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18875, status='terminated', started='04:12:45') (18875) terminated with exit code None
+[2023-05-15T04:14:44.502+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18859, status='terminated', started='04:12:45') (18859) terminated with exit code None
+[2023-05-15T04:14:44.502+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18860, status='terminated', started='04:12:45') (18860) terminated with exit code None
+[2023-05-15T04:14:44.502+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18876, status='terminated', started='04:12:45') (18876) terminated with exit code None
+[2023-05-15T04:14:44.502+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18877, status='terminated', started='04:12:45') (18877) terminated with exit code None
+[2023-05-15T04:14:44.502+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18861, status='terminated', started='04:12:45') (18861) terminated with exit code None
+[2023-05-15T04:14:44.594+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18878, status='terminated', started='04:12:45') (18878) terminated with exit code None
+[2023-05-15T04:14:44.686+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18851, status='terminated', exitcode=0, started='04:12:44') (18851) terminated with exit code 0
+[2023-05-15T04:14:44.687+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18857, status='terminated', started='04:12:45') (18857) terminated with exit code None
+[2023-05-15T04:14:44.740+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18855, status='terminated', started='04:12:45') (18855) terminated with exit code None
+[2023-05-15T04:14:44.740+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18862, status='terminated', started='04:12:45') (18862) terminated with exit code None
+[2023-05-15T04:14:44.740+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18879, status='terminated', started='04:12:45') (18879) terminated with exit code None
+[2023-05-15T04:14:44.740+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18863, status='terminated', started='04:12:45') (18863) terminated with exit code None
+[2023-05-15T04:14:44.740+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18858, status='terminated', started='04:12:45') (18858) terminated with exit code None
+[2023-05-15T04:14:44.741+0530] {process_utils.py:79} INFO - Process psutil.Process(pid=18856, status='terminated', started='04:12:45') (18856) terminated with exit code None
