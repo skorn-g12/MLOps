@@ -1,4 +1,4 @@
-In this segment you will create a pipeline to automate data cleaning using Airflow. For creating the pipeline follow the below mentioned instructions:
+In this segment you will create a pipeline to automate data cleaning using Airflow. For creating the pipeline follow the below-mentioned instructions:
 
 1. Go to the Assignment/02_training_pipeline/scripts folder.  
 
@@ -10,7 +10,7 @@ In this segment you will create a pipeline to automate data cleaning using Airfl
 
 Set the mlflow experiment name to “Lead_scoring_mlflow_production”. 
 
-NOTE: We need to clean our new data before we can use it to train our model. Thus we will run the data pipeline on the raw data and use the cleaned data for training. Thus our encode_feature will read the input from data pipeline’s output which is present in the ‘lead_scoring_data_cleaning.db’ file.  Also note that since we are not creating any db here we do not require build_db function
+NOTE: We need to clean our new data before we can use it to train our model. Thus, we will run the data pipeline on the raw data and use the cleaned data for training. Thus our encode_feature will read the input from data pipeline’s output which is present in the ‘lead_scoring_data_cleaning.db’ file.  Also note that since we are not creating any db here we do not require build_db function
 
 4.Once you have modified the functions, create a test notebook and import utils file in it and run all the functions in the proper order. This will help you debug your code
 

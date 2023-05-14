@@ -1,0 +1,14 @@
+[2023-05-15T00:21:45.979+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.checking_model_inputs_schema manual__2023-05-14T18:37:43.373195+00:00 [queued]>
+[2023-05-15T00:21:45.988+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.checking_model_inputs_schema manual__2023-05-14T18:37:43.373195+00:00 [queued]>
+[2023-05-15T00:21:45.988+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-15T00:21:46.107+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): checking_model_inputs_schema> on 2023-05-14 18:37:43.373195+00:00
+[2023-05-15T00:21:46.113+0530] {standard_task_runner.py:57} INFO - Started process 67037 to run task
+[2023-05-15T00:21:46.115+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_Scoring_Data_Engineering_Pipeline', 'checking_model_inputs_schema', 'manual__2023-05-14T18:37:43.373195+00:00', '--job-id', '15', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmpqwwz_wxs']
+[2023-05-15T00:21:46.116+0530] {standard_task_runner.py:85} INFO - Job 15: Subtask checking_model_inputs_schema
+[2023-05-15T00:21:46.217+0530] {task_command.py:410} INFO - Running <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.checking_model_inputs_schema manual__2023-05-14T18:37:43.373195+00:00 [running]> on host Agni
+[2023-05-15T00:21:46.464+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_Scoring_Data_Engineering_Pipeline' AIRFLOW_CTX_TASK_ID='checking_model_inputs_schema' AIRFLOW_CTX_EXECUTION_DATE='2023-05-14T18:37:43.373195+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='manual__2023-05-14T18:37:43.373195+00:00'
+[2023-05-15T00:21:47.681+0530] {logging_mixin.py:149} INFO - Raw data's schema is in line with the schema present in schema.py
+[2023-05-15T00:21:47.687+0530] {python.py:183} INFO - Done. Returned value was: None
+[2023-05-15T00:21:47.690+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=Lead_Scoring_Data_Engineering_Pipeline, task_id=checking_model_inputs_schema, execution_date=20230514T183743, start_date=20230514T185145, end_date=20230514T185147
+[2023-05-15T00:21:47.811+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-05-15T00:21:47.823+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

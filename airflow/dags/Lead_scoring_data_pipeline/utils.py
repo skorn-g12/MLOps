@@ -2,9 +2,10 @@
 # Import necessary modules and files
 ##############################################################################
 
-import sys
+#import sys
 
-sys.path.append("/run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/01_data_pipeline/notebooks/")
+# sys.path.append("/run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/01_data_pipeline/notebooks/")
+# sys.path.append("/run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_data_pipeline")
 import pandas as pd
 import os
 import sqlite3
@@ -293,8 +294,8 @@ def interactions_mapping():
 
 
 if __name__ == "__main__":
-    #build_dbs()
-    #load_data_into_db()
-    #map_city_tier()
-    #map_categorical_vars()
+    # build_dbs()
+    # load_data_into_db()
+    # map_city_tier()
+    # map_categorical_vars()
     interactions_mapping()

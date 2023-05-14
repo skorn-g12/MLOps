@@ -1,0 +1,122 @@
+[2023-05-15T00:10:21.780+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_interactions scheduled__2023-05-13T00:00:00+00:00 [queued]>
+[2023-05-15T00:10:21.785+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_interactions scheduled__2023-05-13T00:00:00+00:00 [queued]>
+[2023-05-15T00:10:21.785+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-15T00:10:21.850+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): mapping_interactions> on 2023-05-13 00:00:00+00:00
+[2023-05-15T00:10:21.855+0530] {standard_task_runner.py:57} INFO - Started process 66639 to run task
+[2023-05-15T00:10:21.857+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_Scoring_Data_Engineering_Pipeline', 'mapping_interactions', 'scheduled__2023-05-13T00:00:00+00:00', '--job-id', '13', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmpxkag39e1']
+[2023-05-15T00:10:21.858+0530] {standard_task_runner.py:85} INFO - Job 13: Subtask mapping_interactions
+[2023-05-15T00:10:21.949+0530] {task_command.py:410} INFO - Running <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_interactions scheduled__2023-05-13T00:00:00+00:00 [running]> on host Agni
+[2023-05-15T00:10:22.104+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_Scoring_Data_Engineering_Pipeline' AIRFLOW_CTX_TASK_ID='mapping_interactions' AIRFLOW_CTX_EXECUTION_DATE='2023-05-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-13T00:00:00+00:00'
+[2023-05-15T00:10:22.143+0530] {logging_mixin.py:149} INFO - 2.6.0
+[2023-05-15T00:11:31.172+0530] {job.py:213} ERROR - Job heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1905, in _execute_context
+    self.dialect.do_execute(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/feuer/.local/lib/python3.10/site-packages/airflow/jobs/job.py", line 184, in heartbeat
+    session.merge(self)
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3056, in merge
+    return self._merge(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3136, in _merge
+    merged = self.get(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2853, in get
+    return self._get_impl(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 2975, in _get_impl
+    return db_load_fn(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/loading.py", line 530, in load_on_pk_identity
+    session.execute(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1717, in execute
+    result = conn._execute_20(statement, params or {}, execution_options)
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1948, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2129, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1905, in _execute_context
+    self.dialect.do_execute(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: SELECT job.id AS job_id, job.dag_id AS job_dag_id, job.state AS job_state, job.job_type AS job_job_type, job.start_date AS job_start_date, job.end_date AS job_end_date, job.latest_heartbeat AS job_latest_heartbeat, job.executor_class AS job_executor_class, job.hostname AS job_hostname, job.unixname AS job_unixname 
+FROM job 
+WHERE job.id = ?]
+[parameters: (13,)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2023-05-15T00:11:46.795+0530] {job.py:213} ERROR - Job heartbeat got an exception
+Traceback (most recent call last):
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1905, in _execute_context
+    self.dialect.do_execute(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/feuer/.local/lib/python3.10/site-packages/airflow/jobs/job.py", line 205, in heartbeat
+    session.commit()
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 1454, in commit
+    self._transaction.commit(_to_root=self.future)
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 832, in commit
+    self._prepare_impl()
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 811, in _prepare_impl
+    self.session.flush()
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3449, in flush
+    self._flush(objects)
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3588, in _flush
+    with util.safe_reraise():
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/util/langhelpers.py", line 70, in __exit__
+    compat.raise_(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/session.py", line 3549, in _flush
+    flush_context.execute()
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 456, in execute
+    rec.execute(self)
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/unitofwork.py", line 630, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 237, in save_obj
+    _emit_update_statements(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/orm/persistence.py", line 1001, in _emit_update_statements
+    c = connection._execute_20(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1710, in _execute_20
+    return meth(self, args_10style, kwargs_10style, execution_options)
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/sql/elements.py", line 334, in _execute_on_connection
+    return connection._execute_clauseelement(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1577, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1948, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 2129, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/util/compat.py", line 211, in raise_
+    raise exception
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/base.py", line 1905, in _execute_context
+    self.dialect.do_execute(
+  File "/home/feuer/.local/lib/python3.10/site-packages/sqlalchemy/engine/default.py", line 736, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) database is locked
+[SQL: UPDATE job SET latest_heartbeat=? WHERE job.id = ?]
+[parameters: ('2023-05-14 18:41:19.459146', 13)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8)
+[2023-05-15T00:13:25.982+0530] {python.py:183} INFO - Done. Returned value was: None
+[2023-05-15T00:13:26.960+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=Lead_Scoring_Data_Engineering_Pipeline, task_id=mapping_interactions, execution_date=20230513T000000, start_date=20230514T184021, end_date=20230514T184326
+[2023-05-15T00:13:31.970+0530] {standard_task_runner.py:104} ERROR - Failed to execute job 13 for task mapping_interactions ((sqlite3.OperationalError) database is locked
+[SQL: INSERT INTO log (dttm, dag_id, task_id, map_index, event, execution_date, owner, extra) VALUES (?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('2023-05-14 18:43:26.960614', 'Lead_Scoring_Data_Engineering_Pipeline', 'mapping_interactions', -1, <TaskInstanceState.SUCCESS: 'success'>, '2023-05-13 00:00:00.000000', 'airflow', None)]
+(Background on this error at: https://sqlalche.me/e/14/e3q8); 66639)
+[2023-05-15T00:13:32.285+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 1
+[2023-05-15T00:13:35.752+0530] {taskinstance.py:2674} INFO - 0 downstream tasks scheduled from follow-on schedule check

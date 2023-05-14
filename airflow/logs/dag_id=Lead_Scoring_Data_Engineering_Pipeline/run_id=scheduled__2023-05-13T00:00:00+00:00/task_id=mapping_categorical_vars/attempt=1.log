@@ -1,0 +1,29 @@
+[2023-05-15T00:09:26.345+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_categorical_vars scheduled__2023-05-13T00:00:00+00:00 [queued]>
+[2023-05-15T00:09:26.350+0530] {taskinstance.py:1125} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_categorical_vars scheduled__2023-05-13T00:00:00+00:00 [queued]>
+[2023-05-15T00:09:26.350+0530] {taskinstance.py:1331} INFO - Starting attempt 1 of 2
+[2023-05-15T00:09:26.419+0530] {taskinstance.py:1350} INFO - Executing <Task(PythonOperator): mapping_categorical_vars> on 2023-05-13 00:00:00+00:00
+[2023-05-15T00:09:26.423+0530] {standard_task_runner.py:57} INFO - Started process 66588 to run task
+[2023-05-15T00:09:26.425+0530] {standard_task_runner.py:84} INFO - Running: ['airflow', 'tasks', 'run', 'Lead_Scoring_Data_Engineering_Pipeline', 'mapping_categorical_vars', 'scheduled__2023-05-13T00:00:00+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/Lead_scoring_data_pipeline/lead_scoring_data_pipeline.py', '--cfg-path', '/tmp/tmphnxhj0kc']
+[2023-05-15T00:09:26.426+0530] {standard_task_runner.py:85} INFO - Job 11: Subtask mapping_categorical_vars
+[2023-05-15T00:09:26.518+0530] {task_command.py:410} INFO - Running <TaskInstance: Lead_Scoring_Data_Engineering_Pipeline.mapping_categorical_vars scheduled__2023-05-13T00:00:00+00:00 [running]> on host Agni
+[2023-05-15T00:09:26.690+0530] {taskinstance.py:1568} INFO - Exporting env vars: AIRFLOW_CTX_DAG_OWNER='airflow' AIRFLOW_CTX_DAG_ID='Lead_Scoring_Data_Engineering_Pipeline' AIRFLOW_CTX_TASK_ID='mapping_categorical_vars' AIRFLOW_CTX_EXECUTION_DATE='2023-05-13T00:00:00+00:00' AIRFLOW_CTX_TRY_NUMBER='1' AIRFLOW_CTX_DAG_RUN_ID='scheduled__2023-05-13T00:00:00+00:00'
+[2023-05-15T00:09:26.691+0530] {logging_mixin.py:149} INFO - 2.6.0
+[2023-05-15T00:09:31.419+0530] {logging_mixin.py:149} WARNING - /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_data_pipeline/utils.py:166 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-05-15T00:09:39.392+0530] {logging_mixin.py:149} WARNING - /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_data_pipeline/utils.py:173 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-05-15T00:09:45.937+0530] {logging_mixin.py:149} WARNING - /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_data_pipeline/utils.py:179 SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+[2023-05-15T00:09:56.178+0530] {python.py:183} INFO - Done. Returned value was: None
+[2023-05-15T00:09:56.182+0530] {taskinstance.py:1368} INFO - Marking task as SUCCESS. dag_id=Lead_Scoring_Data_Engineering_Pipeline, task_id=mapping_categorical_vars, execution_date=20230513T000000, start_date=20230514T183926, end_date=20230514T183956
+[2023-05-15T00:09:56.276+0530] {local_task_job_runner.py:232} INFO - Task exited with return code 0
+[2023-05-15T00:09:56.296+0530] {taskinstance.py:2674} INFO - 1 downstream tasks scheduled from follow-on schedule check
