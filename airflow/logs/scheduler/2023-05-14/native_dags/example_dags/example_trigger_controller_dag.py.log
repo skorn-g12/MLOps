@@ -5084,3 +5084,31 @@
 [2023-05-15T04:17:07.362+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:07.362+0530] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-05-15T04:17:07.381+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:07.380+0530] {dag.py:3486} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
 [2023-05-15T04:17:07.473+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.137 seconds
+[2023-05-15T04:18:01.803+0530] {processor.py:156} INFO - Started process (PID=19903) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:18:01.828+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2023-05-15T04:18:01.829+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:01.828+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:18:01.832+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:18:01.848+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:01.847+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:18:01.862+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:01.862+0530] {dag.py:3486} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-05-15T04:18:01.969+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.168 seconds
+[2023-05-15T04:18:54.049+0530] {processor.py:156} INFO - Started process (PID=20136) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:18:54.067+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2023-05-15T04:18:54.067+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:54.067+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:18:54.070+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:18:54.088+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:54.088+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:18:54.106+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:54.106+0530] {dag.py:3486} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-05-15T04:18:54.196+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.150 seconds
+[2023-05-15T04:19:48.605+0530] {processor.py:156} INFO - Started process (PID=20344) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:19:48.606+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2023-05-15T04:19:48.607+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:48.606+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:19:48.610+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:19:48.629+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:48.629+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:19:48.647+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:48.647+0530] {dag.py:3486} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-05-15T04:19:48.734+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.131 seconds
+[2023-05-15T04:20:39.580+0530] {processor.py:156} INFO - Started process (PID=20598) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:20:39.580+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py for tasks to queue
+[2023-05-15T04:20:39.581+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:39.581+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:20:39.583+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_trigger_controller_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+[2023-05-15T04:20:39.595+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:39.595+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:20:39.606+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:39.605+0530] {dag.py:3486} INFO - Setting next_dagrun for example_trigger_controller_dag to 2021-01-01T00:00:00+00:00, run_after=2021-01-01T00:00:00+00:00
+[2023-05-15T04:20:39.692+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_controller_dag.py took 0.114 seconds

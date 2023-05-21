@@ -4951,3 +4951,24 @@
 [2023-05-15T04:17:15.552+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:15.552+0530] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-05-15T04:17:15.571+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:15.571+0530] {dag.py:3486} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
 [2023-05-15T04:17:15.655+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.147 seconds
+[2023-05-15T04:18:09.939+0530] {processor.py:156} INFO - Started process (PID=19934) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-05-15T04:18:09.940+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-05-15T04:18:09.941+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:09.940+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-05-15T04:18:09.946+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-05-15T04:18:09.963+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:09.963+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:18:09.975+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:09.974+0530] {dag.py:3486} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-05-15T04:18:10.050+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.113 seconds
+[2023-05-15T04:19:02.157+0530] {processor.py:156} INFO - Started process (PID=20169) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-05-15T04:19:02.214+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-05-15T04:19:02.215+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:02.215+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-05-15T04:19:02.221+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-05-15T04:19:02.235+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:02.235+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:19:02.248+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:02.248+0530] {dag.py:3486} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-05-15T04:19:02.771+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.615 seconds
+[2023-05-15T04:19:54.833+0530] {processor.py:156} INFO - Started process (PID=20353) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-05-15T04:19:54.833+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2023-05-15T04:19:54.834+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:54.834+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-05-15T04:19:54.839+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2023-05-15T04:19:54.857+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:54.856+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:19:54.874+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:54.874+0530] {dag.py:3486} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2023-05-15T04:19:54.952+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.122 seconds

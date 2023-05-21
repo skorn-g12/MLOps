@@ -14,9 +14,6 @@ from significant_categorical_level import *
 from utils import *
 
 
-###############################################################################
-# Write test cases for load_data_into_db() function
-# ##############################################################################
 def get_test_sql_connection():
     """ create a database connection to a SQLite database """
     conn = None
@@ -31,6 +28,9 @@ def get_test_sql_connection():
         return conn
 
 
+###############################################################################
+# Write test cases for load_data_into_db() function
+# ##############################################################################
 def test_load_data_into_db():
     """_summary_
     This function checks if the load_data_into_db function is working properly by

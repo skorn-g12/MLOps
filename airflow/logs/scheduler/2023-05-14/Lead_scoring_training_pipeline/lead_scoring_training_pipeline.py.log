@@ -142,3 +142,61 @@ ModuleNotFoundError: No module named 'utils'
 [2023-05-15T04:16:52.357+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:16:52.357+0530] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-05-15T04:16:52.370+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:16:52.370+0530] {dag.py:3486} INFO - Setting next_dagrun for Lead_scoring_mlflow_production to 2023-05-01T00:00:00+00:00, run_after=2023-06-01T00:00:00+00:00
 [2023-05-15T04:16:52.451+0530] {processor.py:178} INFO - Processing /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.049 seconds
+[2023-05-15T04:17:46.055+0530] {processor.py:156} INFO - Started process (PID=19635) to work on /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:17:46.069+0530] {processor.py:799} INFO - Processing file /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2023-05-15T04:17:46.070+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:46.069+0530] {dagbag.py:541} INFO - Filling up the DagBag from /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:17:47.047+0530] {processor.py:809} INFO - DAG(s) dict_keys(['Lead_scoring_mlflow_production']) retrieved from /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:17:47.055+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:47.055+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:17:47.066+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:47.066+0530] {dag.py:3486} INFO - Setting next_dagrun for Lead_scoring_mlflow_production to 2023-05-01T00:00:00+00:00, run_after=2023-06-01T00:00:00+00:00
+[2023-05-15T04:17:47.144+0530] {processor.py:178} INFO - Processing /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.092 seconds
+[2023-05-15T04:18:40.426+0530] {processor.py:156} INFO - Started process (PID=19975) to work on /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:18:40.427+0530] {processor.py:799} INFO - Processing file /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2023-05-15T04:18:40.427+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:40.427+0530] {dagbag.py:541} INFO - Filling up the DagBag from /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:18:41.459+0530] {processor.py:809} INFO - DAG(s) dict_keys(['Lead_scoring_mlflow_production']) retrieved from /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:18:41.468+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:41.468+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:18:41.481+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:41.481+0530] {dag.py:3486} INFO - Setting next_dagrun for Lead_scoring_mlflow_production to 2023-05-01T00:00:00+00:00, run_after=2023-06-01T00:00:00+00:00
+[2023-05-15T04:18:41.555+0530] {processor.py:178} INFO - Processing /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.133 seconds
+[2023-05-15T04:19:34.356+0530] {processor.py:156} INFO - Started process (PID=20273) to work on /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:19:34.369+0530] {processor.py:799} INFO - Processing file /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2023-05-15T04:19:34.370+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:34.370+0530] {dagbag.py:541} INFO - Filling up the DagBag from /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:19:35.336+0530] {processor.py:809} INFO - DAG(s) dict_keys(['Lead_scoring_mlflow_production']) retrieved from /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:19:35.345+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:35.345+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:19:35.357+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:35.357+0530] {dag.py:3486} INFO - Setting next_dagrun for Lead_scoring_mlflow_production to 2023-05-01T00:00:00+00:00, run_after=2023-06-01T00:00:00+00:00
+[2023-05-15T04:19:35.428+0530] {processor.py:178} INFO - Processing /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.074 seconds
+[2023-05-15T04:20:24.323+0530] {processor.py:156} INFO - Started process (PID=20427) to work on /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:20:24.333+0530] {processor.py:799} INFO - Processing file /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2023-05-15T04:20:24.334+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:24.333+0530] {dagbag.py:541} INFO - Filling up the DagBag from /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:20:25.279+0530] {processor.py:809} INFO - DAG(s) dict_keys(['Lead_scoring_mlflow_production']) retrieved from /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:20:25.287+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:25.287+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:20:25.298+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:25.298+0530] {dag.py:3486} INFO - Setting next_dagrun for Lead_scoring_mlflow_production to 2023-05-01T00:00:00+00:00, run_after=2023-06-01T00:00:00+00:00
+[2023-05-15T04:20:25.373+0530] {processor.py:178} INFO - Processing /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 1.053 seconds
+[2023-05-15T04:21:31.802+0530] {processor.py:156} INFO - Started process (PID=20902) to work on /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T04:21:31.841+0530] {processor.py:799} INFO - Processing file /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py for tasks to queue
+[2023-05-15T04:21:31.842+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:21:31.842+0530] {dagbag.py:541} INFO - Filling up the DagBag from /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T17:38:40.454+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:38:40.168+0530] {timeout.py:68} ERROR - Process timed out, PID: 20902
+[2023-05-15T17:38:44.338+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:38:41.966+0530] {dagbag.py:350} ERROR - Failed to import: /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+Traceback (most recent call last):
+  File "/home/feuer/.local/lib/python3.10/site-packages/airflow/models/dagbag.py", line 346, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py", line 13, in <module>
+    from utils import *
+  File "/run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/utils.py", line 18, in <module>
+    import mlflow
+  File "/home/feuer/.local/lib/python3.10/site-packages/mlflow/__init__.py", line 77, in <module>
+    from mlflow import openai
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 879, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 975, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+  File "/home/feuer/.local/lib/python3.10/site-packages/airflow/utils/timeout.py", line 69, in handle_timeout
+    raise AirflowTaskTimeout(self.error_message)
+airflow.exceptions.AirflowTaskTimeout: DagBag import timeout for /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py after 30.0s.
+Please take a look at these docs to improve your DAG import time:
+* https://airflow.apache.org/docs/apache-airflow/2.6.0/best-practices.html#top-level-python-code
+* https://airflow.apache.org/docs/apache-airflow/2.6.0/best-practices.html#reducing-dag-complexity, PID: 20902
+[2023-05-15T17:38:44.342+0530] {processor.py:811} WARNING - No viable dags retrieved from /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py
+[2023-05-15T17:38:48.354+0530] {processor.py:178} INFO - Processing /run/media/feuer/LinuxDrive/ChromeDownloads/Assignment/airflow/dags/Lead_scoring_training_pipeline/lead_scoring_training_pipeline.py took 40.564 seconds

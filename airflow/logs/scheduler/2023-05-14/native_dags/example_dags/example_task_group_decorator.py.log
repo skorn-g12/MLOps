@@ -5119,3 +5119,31 @@
 [2023-05-15T04:17:02.665+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:02.664+0530] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-05-15T04:17:02.675+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:02.675+0530] {dag.py:3486} INFO - Setting next_dagrun for example_task_group_decorator to 2023-05-13T22:47:02.675265+00:00, run_after=2023-05-14T22:47:02.675265+00:00
 [2023-05-15T04:17:02.760+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.133 seconds
+[2023-05-15T04:17:56.219+0530] {processor.py:156} INFO - Started process (PID=19739) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:17:56.231+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-05-15T04:17:56.232+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:56.231+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:17:56.245+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:17:56.269+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:56.269+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:17:56.287+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:56.287+0530] {dag.py:3486} INFO - Setting next_dagrun for example_task_group_decorator to 2023-05-13T22:47:56.287286+00:00, run_after=2023-05-14T22:47:56.287286+00:00
+[2023-05-15T04:17:56.358+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.142 seconds
+[2023-05-15T04:18:50.050+0530] {processor.py:156} INFO - Started process (PID=20132) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:18:50.062+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-05-15T04:18:50.063+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:50.062+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:18:50.077+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:18:50.107+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:50.106+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:18:50.123+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:50.123+0530] {dag.py:3486} INFO - Setting next_dagrun for example_task_group_decorator to 2023-05-13T22:48:50.122954+00:00, run_after=2023-05-14T22:48:50.122954+00:00
+[2023-05-15T04:18:50.251+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.204 seconds
+[2023-05-15T04:19:44.592+0530] {processor.py:156} INFO - Started process (PID=20340) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:19:44.609+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-05-15T04:19:44.610+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:44.610+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:19:44.625+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:19:44.651+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:44.651+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:19:44.668+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:44.668+0530] {dag.py:3486} INFO - Setting next_dagrun for example_task_group_decorator to 2023-05-13T22:49:44.668145+00:00, run_after=2023-05-14T22:49:44.668145+00:00
+[2023-05-15T04:19:44.755+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.166 seconds
+[2023-05-15T04:20:35.458+0530] {processor.py:156} INFO - Started process (PID=20576) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:20:35.473+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py for tasks to queue
+[2023-05-15T04:20:35.474+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:35.474+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:20:35.490+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_task_group_decorator']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py
+[2023-05-15T04:20:35.521+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:35.521+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:20:35.536+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:35.536+0530] {dag.py:3486} INFO - Setting next_dagrun for example_task_group_decorator to 2023-05-13T22:50:35.536202+00:00, run_after=2023-05-14T22:50:35.536202+00:00
+[2023-05-15T04:20:35.625+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group_decorator.py took 0.170 seconds

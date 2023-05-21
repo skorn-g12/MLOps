@@ -1,0 +1,18 @@
+artifact_path: Best_estimator
+flavors:
+  lightgbm:
+    code: null
+    data: model.pkl
+    lgb_version: 3.3.5
+    model_class: lightgbm.sklearn.LGBMClassifier
+  python_function:
+    data: model.pkl
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.lightgbm
+    python_version: 3.10.10
+mlflow_version: 2.3.1
+model_uuid: 18781d16456e4979b2536fd5b2dd8057
+run_id: 21f27df33c404e5c8f2c23973a9c99e6
+utc_time_created: '2023-05-21 13:42:45.733517'

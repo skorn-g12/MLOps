@@ -33,15 +33,15 @@ def get_sql_connection():
 
 
 def build_dbs():
-    '''
-    This function checks if the db file with specified name is present 
-    in the /Assignment/01_data_pipeline/scripts folder. If it is not present it creates 
-    the db file with the given name at the given path. 
+    """
+    This function checks if the db file with specified name is present
+    in the /Assignment/01_data_pipeline/scripts folder. If it is not present it creates
+    the db file with the given name at the given path.
 
 
     INPUTS
         DB_FILE_NAME : Name of the database file 'utils_output.db'
-        DB_PATH : path where the db file should exist  
+        DB_PATH : path where the db file should exist
 
 
     OUTPUT
@@ -50,15 +50,15 @@ def build_dbs():
                 prints 'DB Already Exists' and returns 'DB Exists'
 
         2. If the db file is not present at the specified loction
-                prints 'Creating Database' and creates the sqlite db 
-                file at the specified path with the specified name and 
-                once the db file is created prints 'New DB Created' and 
+                prints 'Creating Database' and creates the sqlite db
+                file at the specified path with the specified name and
+                once the db file is created prints 'New DB Created' and
                 returns 'DB created'
 
 
     SAMPLE USAGE
         build_dbs()
-    '''
+    """
     returnStatus = "DB Exists"
     if os.path.isfile(DB_PATH + "/" + DB_FILE_NAME):
         print("DB Already Exists")
@@ -293,8 +293,11 @@ def interactions_mapping():
 
 
 if __name__ == "__main__":
-    #build_dbs()
-    #load_data_into_db()
-    #map_city_tier()
-    #map_categorical_vars()
+    """
+    Testing the individual functions by running them here instead of creating a redundant dummy notebook.  
+    """
+    build_dbs()
+    load_data_into_db()
+    map_city_tier()
+    map_categorical_vars()
     interactions_mapping()

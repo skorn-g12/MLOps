@@ -3600,3 +3600,31 @@
 [2023-05-15T04:16:38.707+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:16:38.707+0530] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-05-15T04:16:38.721+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:16:38.721+0530] {dag.py:3486} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2023-05-14T22:45:00+00:00, run_after=2023-05-14T22:46:00+00:00
 [2023-05-15T04:16:38.813+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.139 seconds
+[2023-05-15T04:17:36.559+0530] {processor.py:156} INFO - Started process (PID=19599) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:17:36.573+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2023-05-15T04:17:36.573+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:36.573+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:17:36.578+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_branch_dop_operator_v3']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:17:36.590+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:36.590+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:17:36.605+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:36.605+0530] {dag.py:3486} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2023-05-14T22:46:00+00:00, run_after=2023-05-14T22:47:00+00:00
+[2023-05-15T04:17:36.694+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.138 seconds
+[2023-05-15T04:18:33.877+0530] {processor.py:156} INFO - Started process (PID=19969) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:18:33.886+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2023-05-15T04:18:33.887+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:33.887+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:18:33.895+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_branch_dop_operator_v3']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:18:33.915+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:33.914+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:18:33.940+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:33.940+0530] {dag.py:3486} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2023-05-14T22:47:00+00:00, run_after=2023-05-14T22:48:00+00:00
+[2023-05-15T04:18:34.035+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.162 seconds
+[2023-05-15T04:19:25.518+0530] {processor.py:156} INFO - Started process (PID=20266) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:19:25.526+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2023-05-15T04:19:25.526+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:25.526+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:19:25.533+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_branch_dop_operator_v3']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:19:25.552+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:25.552+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:19:25.576+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:25.576+0530] {dag.py:3486} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2023-05-14T22:48:00+00:00, run_after=2023-05-14T22:49:00+00:00
+[2023-05-15T04:19:25.661+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.146 seconds
+[2023-05-15T04:20:18.545+0530] {processor.py:156} INFO - Started process (PID=20375) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:20:18.556+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py for tasks to queue
+[2023-05-15T04:20:18.557+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:18.557+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:20:18.564+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_branch_dop_operator_v3']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+[2023-05-15T04:20:18.582+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:18.582+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:20:18.607+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:20:18.606+0530] {dag.py:3486} INFO - Setting next_dagrun for example_branch_dop_operator_v3 to 2023-05-14T22:49:00+00:00, run_after=2023-05-14T22:50:00+00:00
+[2023-05-15T04:20:18.701+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py took 0.159 seconds

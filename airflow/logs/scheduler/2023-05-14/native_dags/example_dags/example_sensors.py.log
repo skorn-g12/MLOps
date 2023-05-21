@@ -3474,3 +3474,24 @@
 [2023-05-15T04:16:44.541+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:16:44.541+0530] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-05-15T04:16:44.558+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:16:44.558+0530] {dag.py:3486} INFO - Setting next_dagrun for example_sensors to None, run_after=None
 [2023-05-15T04:16:44.620+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.129 seconds
+[2023-05-15T04:17:42.646+0530] {processor.py:156} INFO - Started process (PID=19609) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-05-15T04:17:42.662+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-05-15T04:17:42.663+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:42.662+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-05-15T04:17:42.672+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-05-15T04:17:42.697+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:42.696+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:17:42.715+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:17:42.715+0530] {dag.py:3486} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-05-15T04:17:42.801+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.158 seconds
+[2023-05-15T04:18:39.186+0530] {processor.py:156} INFO - Started process (PID=19974) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-05-15T04:18:39.198+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-05-15T04:18:39.199+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:39.199+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-05-15T04:18:39.209+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-05-15T04:18:39.233+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:39.233+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:18:39.251+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:39.251+0530] {dag.py:3486} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-05-15T04:18:39.329+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.146 seconds
+[2023-05-15T04:19:57.289+0530] {processor.py:156} INFO - Started process (PID=20355) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-05-15T04:19:57.303+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py for tasks to queue
+[2023-05-15T04:19:57.303+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:57.303+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-05-15T04:19:57.313+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_sensors']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py
+[2023-05-15T04:19:57.337+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:57.337+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:19:57.356+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:57.356+0530] {dag.py:3486} INFO - Setting next_dagrun for example_sensors to None, run_after=None
+[2023-05-15T04:19:57.418+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_sensors.py took 0.132 seconds

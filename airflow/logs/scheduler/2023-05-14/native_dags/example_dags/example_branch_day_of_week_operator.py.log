@@ -3432,3 +3432,24 @@
 [2023-05-15T04:16:48.957+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:16:48.957+0530] {dag.py:2726} INFO - Sync 1 DAGs
 [2023-05-15T04:16:48.978+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:16:48.978+0530] {dag.py:3486} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
 [2023-05-15T04:16:49.052+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.136 seconds
+[2023-05-15T04:18:11.352+0530] {processor.py:156} INFO - Started process (PID=19946) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-05-15T04:18:11.353+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-05-15T04:18:11.353+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:11.353+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-05-15T04:18:11.360+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-05-15T04:18:11.387+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:11.387+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:18:11.408+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:18:11.408+0530] {dag.py:3486} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-15T04:18:11.492+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.143 seconds
+[2023-05-15T04:19:31.875+0530] {processor.py:156} INFO - Started process (PID=20271) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-05-15T04:19:31.890+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-05-15T04:19:31.891+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:31.891+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-05-15T04:19:31.897+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-05-15T04:19:31.918+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:31.917+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:19:31.939+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:19:31.939+0530] {dag.py:3486} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-15T04:19:32.020+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.147 seconds
+[2023-05-15T04:21:27.922+0530] {processor.py:156} INFO - Started process (PID=20896) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-05-15T04:21:27.971+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py for tasks to queue
+[2023-05-15T04:21:27.972+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:21:27.972+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-05-15T04:21:28.005+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_weekday_branch_operator']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py
+[2023-05-15T04:21:28.048+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:21:28.048+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T04:21:28.072+0530] {logging_mixin.py:149} INFO - [2023-05-15T04:21:28.071+0530] {dag.py:3486} INFO - Setting next_dagrun for example_weekday_branch_operator to 2023-05-13T00:00:00+00:00, run_after=2023-05-14T00:00:00+00:00
+[2023-05-15T04:21:28.290+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_branch_day_of_week_operator.py took 0.371 seconds

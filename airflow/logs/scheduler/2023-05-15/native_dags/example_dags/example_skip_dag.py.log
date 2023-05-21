@@ -1,0 +1,63 @@
+[2023-05-15T17:39:46.004+0530] {processor.py:156} INFO - Started process (PID=21578) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:39:46.005+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-05-15T17:39:46.005+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:39:46.005+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:39:46.098+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:39:46.189+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:39:46.189+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T17:39:46.208+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:39:46.208+0530] {dag.py:3486} INFO - Setting next_dagrun for example_skip_dag to 2023-05-14T12:09:46.207913+00:00, run_after=2023-05-15T12:09:46.207913+00:00
+[2023-05-15T17:39:46.531+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.529 seconds
+[2023-05-15T17:40:59.406+0530] {processor.py:156} INFO - Started process (PID=21872) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:40:59.431+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-05-15T17:40:59.432+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:40:59.432+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:40:59.454+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:40:59.474+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:40:59.474+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T17:40:59.494+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:40:59.494+0530] {dag.py:3486} INFO - Setting next_dagrun for example_skip_dag to 2023-05-14T12:10:59.494248+00:00, run_after=2023-05-15T12:10:59.494248+00:00
+[2023-05-15T17:40:59.576+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.173 seconds
+[2023-05-15T17:41:58.053+0530] {processor.py:156} INFO - Started process (PID=22063) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:41:58.070+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-05-15T17:41:58.070+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:41:58.070+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:41:58.092+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:41:58.120+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:41:58.120+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T17:41:58.139+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:41:58.139+0530] {dag.py:3486} INFO - Setting next_dagrun for example_skip_dag to 2023-05-14T12:11:58.139220+00:00, run_after=2023-05-15T12:11:58.139220+00:00
+[2023-05-15T17:41:58.239+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.189 seconds
+[2023-05-15T17:42:50.403+0530] {processor.py:156} INFO - Started process (PID=22254) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:42:50.417+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-05-15T17:42:50.418+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:42:50.418+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:42:50.424+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:42:50.445+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:42:50.445+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T17:42:50.465+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:42:50.465+0530] {dag.py:3486} INFO - Setting next_dagrun for example_skip_dag to 2023-05-14T12:12:50.464789+00:00, run_after=2023-05-15T12:12:50.464789+00:00
+[2023-05-15T17:42:50.582+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.182 seconds
+[2023-05-15T17:43:43.131+0530] {processor.py:156} INFO - Started process (PID=22371) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:43:43.132+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-05-15T17:43:43.133+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:43:43.133+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:43:43.142+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:43:43.165+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:43:43.165+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T17:43:43.180+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:43:43.180+0530] {dag.py:3486} INFO - Setting next_dagrun for example_skip_dag to 2023-05-14T12:13:43.180476+00:00, run_after=2023-05-15T12:13:43.180476+00:00
+[2023-05-15T17:43:43.305+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.177 seconds
+[2023-05-15T17:44:38.421+0530] {processor.py:156} INFO - Started process (PID=22507) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:44:38.421+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-05-15T17:44:38.422+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:44:38.422+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:44:38.425+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:44:38.464+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:44:38.464+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T17:44:38.475+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:44:38.475+0530] {dag.py:3486} INFO - Setting next_dagrun for example_skip_dag to 2023-05-14T12:14:38.474858+00:00, run_after=2023-05-15T12:14:38.474858+00:00
+[2023-05-15T17:44:38.571+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.153 seconds
+[2023-05-15T17:45:32.920+0530] {processor.py:156} INFO - Started process (PID=22642) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:45:32.921+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-05-15T17:45:32.922+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:45:32.922+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:45:32.927+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:45:32.952+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:45:32.952+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T17:45:32.964+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:45:32.964+0530] {dag.py:3486} INFO - Setting next_dagrun for example_skip_dag to 2023-05-14T12:15:32.964473+00:00, run_after=2023-05-15T12:15:32.964473+00:00
+[2023-05-15T17:45:33.051+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.134 seconds
+[2023-05-15T17:46:27.685+0530] {processor.py:156} INFO - Started process (PID=22749) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:46:27.689+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-05-15T17:46:27.690+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:46:27.690+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:46:27.696+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:46:27.710+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:46:27.710+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T17:46:27.729+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:46:27.729+0530] {dag.py:3486} INFO - Setting next_dagrun for example_skip_dag to 2023-05-14T12:16:27.728985+00:00, run_after=2023-05-15T12:16:27.728985+00:00
+[2023-05-15T17:46:27.814+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.131 seconds
+[2023-05-15T17:47:21.886+0530] {processor.py:156} INFO - Started process (PID=22882) to work on /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:47:21.895+0530] {processor.py:799} INFO - Processing file /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py for tasks to queue
+[2023-05-15T17:47:21.895+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:47:21.895+0530] {dagbag.py:541} INFO - Filling up the DagBag from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:47:21.925+0530] {processor.py:809} INFO - DAG(s) dict_keys(['example_skip_dag']) retrieved from /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py
+[2023-05-15T17:47:21.962+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:47:21.962+0530] {dag.py:2726} INFO - Sync 1 DAGs
+[2023-05-15T17:47:21.984+0530] {logging_mixin.py:149} INFO - [2023-05-15T17:47:21.983+0530] {dag.py:3486} INFO - Setting next_dagrun for example_skip_dag to 2023-05-14T12:17:21.983726+00:00, run_after=2023-05-15T12:17:21.983726+00:00
+[2023-05-15T17:47:22.081+0530] {processor.py:178} INFO - Processing /home/feuer/.local/lib/python3.10/site-packages/airflow/example_dags/example_skip_dag.py took 0.197 seconds

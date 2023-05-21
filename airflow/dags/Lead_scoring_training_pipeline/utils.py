@@ -25,6 +25,8 @@ from sklearn.model_selection import train_test_split, GridSearchCV
 from sklearn.metrics import accuracy_score
 
 from constants import *
+import mlflow
+from pycaret.classification import *
 
 
 def get_sql_connection():
@@ -80,14 +82,14 @@ def encode_features():
             placeholder_df = pd.concat([placeholder_df, encoded], axis=1)
         else:
             print('Feature not found')
-            return df
-
+            return
+    encoded_df.drop(FEATURES_TO_ENCODE, axis=1, inplace=True)
     # Implement these steps to prevent dimension mismatch during inference
     for feature in encoded_df.columns:
         if feature in df.columns:
             encoded_df[feature] = df[feature]
-        if feature in placeholder_df.columns:
-            encoded_df[feature] = placeholder_df[feature]
+
+    encoded_df = pd.concat([encoded_df, placeholder_df], axis=1)
     # fill all null values
     encoded_df.fillna(0, inplace=True)
     target = encoded_df.pop("app_complete_flag")
@@ -101,12 +103,12 @@ def encode_features():
 # ##############################################################################
 
 def get_trained_model():
-    '''
-    This function setups mlflow experiment to track the run of the training pipeline. It 
-    also trains the model based on the features created in the previous function and 
+    """
+    This function setups mlflow experiment to track the run of the training pipeline. It
+    also trains the model based on the features created in the previous function and
     logs the train model into mlflow model registry for prediction. The input dataset is split
     into train and test data and the auc score calculated on the test data and
-    recorded as a metric in mlflow run.   
+    recorded as a metric in mlflow run.
 
     INPUTS
         db_file_name : Name of the database file
@@ -121,42 +123,52 @@ def get_trained_model():
 
     SAMPLE USAGE
         get_trained_model()
-    '''
+    """
     mlflow.set_tracking_uri(TRACKING_URI)
-    mlflow.set_experiment("Lead_Scoring_Training_Pipeline")
-    gridParams = {
-        'learning_rate': [0.005, 0.01, 0.05, 0.1],
-        'n_estimators': [8, 16, 24, 32],
-        'num_leaves': [6, 8, 12, 16],  # large num_leaves helps improve accuracy but might lead to over-fitting
-        'boosting_type': ['gbdt', 'dart'],  # for better accuracy -> try dart
-        'objective': ['binary'],
-        'max_bin': [255, 510],  # large max_bin helps improve accuracy but might slow down training progress
-        'random_state': [500],
-        'colsample_bytree': [0.64, 0.65, 0.66],
-        'subsample': [0.7, 0.75],
-        'reg_alpha': [1, 1.2],
-        'reg_lambda': [1, 1.2, 1.4],
-    }
+    # mlflow.set_experiment(MLFLOW_EXPERIMENT_NAME)
     conn = get_sql_connection()
     X = pd.read_sql_query("SELECT * FROM features", conn)
     y = pd.read_sql_query("SELECT * FROM target", conn)
-    X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    # Defining LightGBM model and GridSearchCV object
-    model = lgb.LGBMClassifier(random_state=42, objective='binary')
-    grid = GridSearchCV(estimator=model, param_grid=gridParams, cv=3, n_jobs=-1, scoring='roc_auc')
-    # Training the model with GridSearchCV
+    dfAllFeatures = pd.concat([X, y], axis=1)
+    # Split the DataFrame into train and test sets
+    dfTrain, dfTest = train_test_split(dfAllFeatures, test_size=0.2, random_state=42)
+
     with mlflow.start_run() as run:
-        grid.fit(X_train, y_train)
-        # Get auc score on test data
-        model = grid.best_estimator_
-        y_pred = model.predict(X_test)
-        aucScore = roc_auc_score(y_test, y_pred)
+        # All features' expt
+        baseline_allFeaturesExpt = setup(data=dfTrain,
+                                         target='app_complete_flag',
+                                         test_data=dfTest,
+                                         session_id=42,
+                                         fix_imbalance=False,
+                                         **MODEL_CFG)
+
+        bestModel = compare_models(exclude=EXCLUDE_MODELS, sort="AUC")
 
         # Logging best params, score and model to MLflow
-        mlflow.log_metric("AUC_Test", aucScore)
-        mlflow.log_params(grid.best_params_)
-        mlflow.log_metric('auc_train', grid.best_score_)
-        mlflow.lightgbm.log_model(grid.best_estimator_, 'lgbm_model')
+
+        # Get the train and test AUC scores
+        y_train = dfTrain.pop("app_complete_flag")
+        y_test = dfTest.pop("app_complete_flag")
+        X_train = dfTrain
+        X_test = dfTest
+        # Tuning
+        tuned_lgbm = tune_model(bestModel,
+                                optimize="AUC",
+                                fold=5,
+                                n_iter=50,
+                                verbose=False,
+                                custom_grid=GRID_PARAMS,
+                                search_library="optuna")
+
+        # Logging in mlflow
+        yPredTest = tuned_lgbm.predict(X_test)
+        yPredTrain = tuned_lgbm.predict(X_train)
+        test_auc = roc_auc_score(y_test, yPredTest)
+        train_auc = roc_auc_score(y_train, yPredTrain)
+        mlflow.log_metric("AUC_Train", train_auc)
+        mlflow.log_metric("AUC_Test", test_auc)
+        mlflow.log_params(tuned_lgbm.get_params())
+        mlflow.lightgbm.log_model(tuned_lgbm, 'Best_estimator')
 
 
 if __name__ == "__main__":
